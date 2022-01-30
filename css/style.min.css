@@ -770,6 +770,7 @@ body.ie ._ibg img {
 }
 
 .header {
+  position: sticky;
   width: 100%;
   top: 0;
   left: 0;
@@ -983,8 +984,8 @@ body.ie ._ibg img {
   padding-bottom: 115px;
 }
 .room__content {
+  background-color: #929292;
   display: flex;
-  text-align: center;
   justify-content: space-between;
 }
 
