@@ -1085,7 +1085,7 @@ body.ie ._ibg img {
   line-height: 31px;
   padding-left: 38px;
   padding-bottom: 24px;
-  padding-right: 52px;
+  padding-right: 100px;
 }
 .block__description_rev {
   font-family: "Cardo", serif;
@@ -1139,4 +1139,10 @@ body.ie ._ibg img {
 .block__icons {
   padding-left: 38px;
   padding-top: 60px;
+}
+
+@media (max-width: 1920px) {
+  .block__description_rev {
+    padding-left: 200px;
+  }
 }
