@@ -983,11 +983,8 @@ body.ie ._ibg img {
   padding-bottom: 115px;
 }
 .room__content {
-  max-width: 360px;
-  max-height: 320px;
   display: flex;
-  flex: 1 1 auto;
-  text-align: center;
+  justify-content: space-between;
 }
 
 .brands {
