@@ -987,6 +987,7 @@ body.ie ._ibg img {
   max-height: 320px;
   display: flex;
   flex: 1 1 auto;
+  text-align: center;
 }
 
 .brands {
@@ -1112,6 +1113,7 @@ body.ie ._ibg img {
   font-size: 18px;
   line-height: 31px;
   padding-right: 48px;
+  padding-bottom: 47px;
 }
 .block__button {
   position: relative;
