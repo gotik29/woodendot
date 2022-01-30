@@ -954,3 +954,191 @@ body.ie ._ibg img {
   color: black;
   background-color: #fff;
 }
+
+.about__body {
+  padding: 66px 66px 66px 69px;
+  text-align: center;
+}
+.about__row {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  text-align: center;
+  justify-content: center;
+}
+.about__column {
+  padding-right: 150px;
+}
+.about__column:last-child {
+  padding-right: 0;
+}
+.about__title {
+  font-size: 13px;
+  letter-spacing: 3.52;
+  height: 14px;
+  padding-top: 10px;
+}
+
+.room {
+  padding-bottom: 115px;
+}
+.room__content {
+  max-width: 360px;
+  max-height: 320px;
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.brands {
+  padding-top: 29px;
+}
+.brands_rev {
+  padding-top: 29px;
+}
+.brands_rev .brands__column {
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+.brands_rev .brands__column_b {
+  -webkit-box-ordinal-group: 4;
+  -moz-box-ordinal-group: 4;
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+}
+.brands__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block_rev {
+  text-align: right;
+}
+.block__new_rev {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 29px;
+  font-style: italic;
+  padding-right: 48px;
+  padding-top: 28px;
+  color: #bc1414;
+}
+.block__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 56px;
+  padding-top: 40px;
+  padding-left: 38px;
+}
+.block__title_rev {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 56px;
+  padding-top: 48px;
+  padding-right: 48px;
+}
+.block__text {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  font-style: italic;
+  padding-bottom: 20px;
+  padding-left: 38px;
+}
+.block__text_rev {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  font-style: italic;
+  padding-bottom: 20px;
+  padding-right: 48px;
+}
+.block__price {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  padding-bottom: 10px;
+  padding-left: 38px;
+}
+.block__price_rev {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  padding-right: 48px;
+  padding-bottom: 46px;
+}
+.block__description {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  padding-left: 38px;
+  padding-bottom: 24px;
+  padding-right: 52px;
+}
+.block__description_rev {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  padding-right: 48px;
+  padding-left: 30px;
+  padding-bottom: 24px;
+}
+.block__add {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  padding-left: 38px;
+  padding-bottom: 47px;
+}
+.block__add_rev {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  padding-right: 48px;
+  padding-bottom: 47px;
+}
+.block__button {
+  position: relative;
+  cursor: pointer;
+  line-height: 1;
+  text-decoration: none;
+  color: #000;
+  margin-right: 48px;
+  margin-left: 38px;
+}
+.block__button:after {
+  margin-top: 2px;
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #000;
+  content: "";
+  transition: width 0.3s ease-out;
+}
+.block__button:hover:after,
+.block__button focus:after {
+  width: 100%;
+}
+.block__icons {
+  padding-left: 38px;
+  padding-top: 57px;
+}
