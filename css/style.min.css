@@ -984,6 +984,7 @@ body.ie ._ibg img {
 }
 .room__content {
   display: flex;
+  text-align: center;
   justify-content: space-between;
 }
 
@@ -1138,11 +1139,5 @@ body.ie ._ibg img {
 }
 .block__icons {
   padding-left: 38px;
-  padding-top: 60px;
-}
-
-@media (max-width: 1920px) {
-  .block__description_rev {
-    padding-left: 200px;
-  }
+  padding-top: 50px;
 }
