@@ -26,6 +26,15 @@
   <!-- <meta name="robots" content="noindex, nofollow"> -->
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+  />
+  <!-- Link Swiper's CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
 </head>
 
   <body>
@@ -130,6 +139,7 @@
           </div>
         </div>
       </section>
+      <section class="items">
       <section class="brands_rev">
         <div class="brands__row">
           <div class="brands__column brands__column_b">
@@ -246,6 +256,69 @@
           </div>
         </div>
       </section>
+    </section>
+    <section class="pieces">
+      <div class="pieces__container">
+        <div class="pieces__content">
+          <div class="pieces__title">Our pieces inside your home</div>
+          <div class="pieces__subtitle">Get inspired by our products in real-life. Tag us and be featured!</div>
+          <div class="pieces__slider">
+          <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/pieces/pieces-3.jpg" alt="">
+                </div>
+            </div>
+            <div class="pag swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <div class="pieces__title">Our pieces inside your home</div>
+          <div class="pieces__subtitle">Get inspired by our products in real-life. Tag us and be featured!</div>
     </main>
     <footer class="footer"></footer>
  <div class="popup popup_popup">
@@ -272,9 +345,35 @@
 </div>
 
     <!-- Swiper -->
-<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/vendors.js"></script>
 <script src="js/app.js"></script>
+<!--Jquery-->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"
+></script>
+<!-- Swiper JS -->
+
+<script>
+  var swiper = new Swiper(".swiper", {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    loop: true,
+    slidesPerGroup: 1,
+    autoplay: {
+      delay: 2000,
+    },
+
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+      dynamicMainBullets: 7,
+      clickable: true,
+    },
+  });
+</script>
 
   </body>
 </html>

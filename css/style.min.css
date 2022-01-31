@@ -1142,3 +1142,46 @@ body.ie ._ibg img {
   padding-left: 38px;
   padding-top: 50px;
 }
+
+.pieces__content {
+  text-align: center;
+}
+.pieces__title {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  padding-bottom: 21px;
+  padding-top: 61px;
+}
+.pieces__subtitle {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+}
+
+.swiper {
+  width: 78%;
+  padding-bottom: 50px !important;
+}
+
+@media (min-width: 1920px) {
+  .swiper {
+    width: 60%;
+    padding-bottom: 50px !important;
+  }
+}
+.swiper-slide {
+  padding-top: 37px;
+}
+
+.pag .swiper-pagination-bullet {
+  background-color: #333333;
+}
+
+.pag .swiper-pagination-bullet-active {
+  background-color: #000;
+  height: 10px;
+  width: 10px;
+}
