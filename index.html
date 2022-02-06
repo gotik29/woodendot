@@ -140,7 +140,7 @@
         </div>
       </section>
       <section class="items">
-      <section class="brands_rev">
+        <section class="brands_rev">
         <div class="brands__row">
           <div class="brands__column brands__column_b">
             <div href="" class="brands__item item">
@@ -161,8 +161,8 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="brands">
+        </section>
+        <section class="brands">
         <div class="brands__row">
           <div class="brands__column brands__column_b">
             <div href="" class="brands__item item">
@@ -184,8 +184,8 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="brands_rev">
+        </section>
+        <section class="brands_rev">
         <div class="brands__row">
           <div class="brands__column brands__column_b">
             <div href="" class="brands__item item">
@@ -208,8 +208,8 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="brands">
+        </section>
+        <section class="brands">
         <div class="brands__row">
           <div class="brands__column brands__column_b">
             <div href="" class="brands__item item">
@@ -232,8 +232,8 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="brands_rev">
+        </section>
+        <section class="brands_rev">
         <div class="brands__row">
           <div class="brands__column brands__column_b">
             <div href="" class="brands__item item">
@@ -255,9 +255,9 @@
             </div>
           </div>
         </div>
+        </section>
       </section>
-    </section>
-    <section class="pieces">
+      <section class="pieces">
       <div class="pieces__container">
         <div class="pieces__content">
           <div class="pieces__title">Our pieces inside your home</div>
@@ -316,7 +316,48 @@
         </div>
       </div>
       </div>
-    </section>
+      </section>
+      <section class="comments">
+        <div class="comments__container">
+          <div class="comments__content">
+            <div class="swiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <p class="slide1__text">"I really appreciated both the design and the high quality of the products"</p>
+                  <p class="slide1__name">B. Sbaraglia, Italy</p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="slide1__text">"Product of a high quality and an original design. Perfect secure packaging for the shipment. And a nice touch of attention for the customer."</p>
+                  <p class="slide1__name">R. Brottes, France.</p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="slide1__text">"Excellent products and customer support. I love what I’ve gotten so far, and I look forward to purchasing more pieces in the future. Every time I’ve reached out to the company they’ve been very prompt in their replies, and in fact they are usually the ones to initiate a follow up rather than waiting on me"</p>
+                  <p class="slide1__name">B. West, United States</p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="slide1__text">"Clear and simplicity in lines, but gorgeous and unexpected results."</p>
+                  <p class="slide1__name">H. Arguelles, Spain</p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="slide1__text">"Really happy with my purchase. Fast services and really good quality!"</p>
+                  <p class="slide1__name">D. Bergen, Belgium</p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="slide1__text">"Exceptional design, great quality of materials, packaged with care"</p>
+                  <p class="slide1__name">R. Socaciu, France</p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="slide1__text">"Very happy with Woodendot!! The products are beautiful, great quality and sustainable. The communication with Daniel was also great. I was kept up to date and got multiple choices when my delivery was delayed. Daniel was very pro-active and polite in the e-mails. I will definitely order again!!!"</p>
+                  <p class="slide1__name">K. Walstock, Netherlands</p>
+                </div>
+              </div>
+                <div class="pag swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer"></footer>
  <div class="popup popup_popup">
@@ -369,6 +410,27 @@
       dynamicBullets: true,
       dynamicMainBullets: 7,
       clickable: true,
+    },
+  });
+
+  var swiper = new Swiper(".swiper1", {
+    // Optional parameters
+    direction: "horizontal",
+    loop: true,
+    autoplay: {
+      delay: 3000,
+    },
+    speed: 800,
+
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+      dynamicMainBullets: 7,
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
   });
 </script>
