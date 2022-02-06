@@ -1193,6 +1193,7 @@ body.ie ._ibg img {
 .swiper1 {
   padding-bottom: 50px !important;
   position: relative;
+  overflow: hidden;
 }
 
 .swiper-wrapper {
