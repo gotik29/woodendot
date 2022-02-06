@@ -1195,6 +1195,10 @@ body.ie ._ibg img {
   position: relative;
 }
 
+.swiper-wrapper {
+  height: 100%;
+}
+
 .slide1__text {
   margin: 0 200px 37px 200px;
   font-family: "Cardo", serif;
