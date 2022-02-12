@@ -896,7 +896,7 @@ body.ie ._ibg img {
 }
 
 .background {
-  padding-top: 100px;
+  padding-top: 80px;
   min-height: 100%;
   min-width: 640px;
   width: 100%;
@@ -958,7 +958,7 @@ body.ie ._ibg img {
 
 .about__body {
   text-align: center;
-  padding: 65px 0px 0px 0px;
+  padding: 45px 0px 0px 0px;
 }
 .about__row {
   display: -webkit-inline-box;
@@ -1144,7 +1144,7 @@ body.ie ._ibg img {
   display: block;
   position: absolute;
   left: 0;
-  width: 0;
+  width: 100%;
   height: 1px;
   background-color: #000;
   content: "";
@@ -1152,7 +1152,7 @@ body.ie ._ibg img {
 }
 .block__button:hover:after,
 .block__button focus:after {
-  width: 100%;
+  width: 0%;
 }
 .block__icons {
   padding-left: 38px;
@@ -1190,6 +1190,7 @@ body.ie ._ibg img {
 }
 .swiper-slide {
   padding-top: 37px;
+  cursor: grab;
 }
 
 .pag .swiper-pagination-bullet {
@@ -1223,6 +1224,7 @@ body.ie ._ibg img {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+  cursor: grab;
   font-style: italic;
 }
 .slide1__name {
@@ -1230,6 +1232,7 @@ body.ie ._ibg img {
   font-weight: 400;
   font-size: 15px;
   line-height: 21px;
+  cursor: grab;
 }
 
 .swiper-button-prev::after,
@@ -1314,11 +1317,24 @@ body.ie ._ibg img {
   margin: 0 0 30px 0;
 }
 .care__button {
-  font-family: Cardo;
-  font-weight: 400;
-  font-size: 15px;
-  text-align: center;
+  position: relative;
+  cursor: pointer;
+  line-height: 1;
+  text-decoration: none;
   color: #000;
-  border-bottom: 1px solid #000;
-  line-height: 36px;
+}
+.care__button:after {
+  margin-top: 2px;
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  content: "";
+  transition: width 0.3s ease-out;
+}
+.care__button:hover:after,
+.care__button focus:after {
+  width: 0%;
 }
