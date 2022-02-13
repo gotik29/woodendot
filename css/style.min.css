@@ -998,11 +998,12 @@ body.ie ._ibg img {
 
 .room {
   padding-bottom: 50px;
+  width: 100%;
 }
 .room__content {
-  background-color: #848484;
   display: flex;
-  justify-content: space-between;
+  height: 427px;
+  width: 427px;
 }
 
 .brands {
@@ -1261,7 +1262,7 @@ body.ie ._ibg img {
 }
 
 .care__body {
-  padding: 100px 0px 100px 0px;
+  padding: 100px 0px 0px 0px;
 }
 .care__row {
   display: -webkit-inline-box;
@@ -1291,6 +1292,10 @@ body.ie ._ibg img {
   align-items: center;
   justify-content: center;
   margin: 0 0 40px 0;
+  transition: transform 1s ease;
+}
+.care__icon:hover {
+  transform: scale(1.5);
 }
 .care__title {
   font-family: Cardo;
@@ -1337,4 +1342,16 @@ body.ie ._ibg img {
 .care__button:hover:after,
 .care__button focus:after {
   width: 0%;
+}
+
+.talking__content {
+  padding: 133px 0px 0px 0px;
+  text-align: center;
+}
+.talking__text {
+  padding: 0px 0px 41px 0px;
+  font-family: Cardo;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.3px;
 }
